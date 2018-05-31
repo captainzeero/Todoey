@@ -13,6 +13,7 @@
 		D3554CCF2089DA2C0084E62B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3554CCE2089DA2C0084E62B /* Assets.xcassets */; };
 		D3554CD22089DA2D0084E62B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3554CD02089DA2D0084E62B /* LaunchScreen.storyboard */; };
 		D3ADD15220B3FDD200319A8B /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3ADD15020B3FDD200319A8B /* DataModel.xcdatamodeld */; };
+		D3ADD17520BD46AE00319A8B /* CategoryViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ADD17420BD46AE00319A8B /* CategoryViewControllerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D3554CD12089DA2D0084E62B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3554CD32089DA2D0084E62B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3ADD15120B3FDD200319A8B /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		D3ADD17420BD46AE00319A8B /* CategoryViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewControllerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		D3554CC62089DA2C0084E62B /* Todoey */ = {
 			isa = PBXGroup;
 			children = (
+				D3554CC72089DA2C0084E62B /* AppDelegate.swift */,
+				D3ADD17620BD46FF00319A8B /* Controllers */,
 				D362EEDB20A170F9006BB262 /* Views */,
 				D362EEDA20A170CE006BB262 /* Data Model */,
-				D3554CCB2089DA2C0084E62B /* Main.storyboard */,
 				D362EEDC20A17148006BB262 /* Supporting files */,
 				D3554CD32089DA2D0084E62B /* Info.plist */,
 			);
@@ -77,8 +80,7 @@
 		D362EEDB20A170F9006BB262 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D3554CC72089DA2C0084E62B /* AppDelegate.swift */,
-				D3554CC92089DA2C0084E62B /* ToDoListViewController.swift */,
+				D3554CCB2089DA2C0084E62B /* Main.storyboard */,
 			);
 			name = Views;
 			path = "New Group1";
@@ -92,6 +94,16 @@
 			);
 			name = "Supporting files";
 			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		D3ADD17620BD46FF00319A8B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3ADD17420BD46AE00319A8B /* CategoryViewControllerTableViewController.swift */,
+				D3554CC92089DA2C0084E62B /* ToDoListViewController.swift */,
+			);
+			name = Controllers;
+			path = "New Group3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +180,7 @@
 			files = (
 				D3554CCA2089DA2C0084E62B /* ToDoListViewController.swift in Sources */,
 				D3ADD15220B3FDD200319A8B /* DataModel.xcdatamodeld in Sources */,
+				D3ADD17520BD46AE00319A8B /* CategoryViewControllerTableViewController.swift in Sources */,
 				D3554CC82089DA2C0084E62B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
